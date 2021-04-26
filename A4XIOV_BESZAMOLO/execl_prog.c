@@ -4,7 +4,7 @@
 
 int main(){
 
-        printf("Engem a gyermek processz futtatott.\nPID-em: %d\nSzülőm PID-je: %d\n",$
+        printf("Engem a gyermek processz futtatott.\nPID-em: %d\nSzülőm PID-je: %d\n", getpid(), getppid());
 
         return 0;
 }
