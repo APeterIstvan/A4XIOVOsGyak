@@ -19,7 +19,7 @@ int main(){
         if(waitpid(child, NULL, 0)<0)
                 perror("wait error");
 
-        printf("Szülő vagyok.\nPID-em: %d\nGyermekem PID-je: %d\n", getpid(), getppid($
+        printf("Szülő vagyok.\nPID-em: %d\nGyermekem PID-je: %d\n", getpid(), getppid());
 
 
         return 0;
